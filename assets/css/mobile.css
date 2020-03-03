@@ -1,0 +1,113 @@
+@media (max-width: 1200px){
+  .product{
+    width: 25%;
+  }
+  .clients{
+    height: auto;
+  }
+  .clients h2{
+    margin-bottom: 20px;
+  }
+  .clients .container{
+    flex-wrap: wrap;
+  }
+  .client-item{
+    width: 320px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1024px){
+  .client-item{
+    width: 340px;
+  }
+}
+@media (max-width: 1000px){
+  .product{
+    width: 30%;
+  }
+  .client-item{
+    width: 320px;
+  }
+}
+@media (max-width: 890px){
+  .product{
+    width: 32%;
+  }
+}
+@media (max-width: 815px){
+  .product{
+    width: 32%;
+  }
+  .products{
+    height: 55vh;
+  }
+}
+@media (max-width: 735px){
+  .product{
+    width: 35%;
+  }
+}
+@media (max-width: 670px){
+  .main{
+    height: 25vh;
+    padding: 5%;
+    margin-bottom: 20px;
+  }
+  .products{
+    display: inherit;
+    height: auto;
+    padding: 20px 0;
+  }
+  .product{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .product:first-child{
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .container{
+    width: 100%;
+  }
+  .description{
+    height: auto;
+    display: inherit;
+  }
+  .description-item{
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .clients{
+    height: auto;
+    display: inherit;
+    text-align: center;
+  }
+  .clients h2{
+    margin: 40px 0;
+  }
+  .client-item{
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575px){
+  .product{
+    width: 70%;
+  }
+}
+@media (max-width: 400px){
+  .product{
+    width: 80%;
+  }
+}
+@media (max-width: 360px){
+  .main h1{
+    font-size: 20px;
+  }
+  .main h1:first-child{
+    font-size: 25px;
+  }
+  .client-item{
+    width: 280px;
+  }
+}

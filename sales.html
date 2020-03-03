@@ -5,8 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
   <title>MarketCats</title>
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/animation.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/mobile.css">
+  <link rel="stylesheet" href="./assets/css/grid.css">
 </head>
 <body>
-  
+  <header class="header">
+    <nav class="nav fadeInDown">
+      <a href="./index.html" class="m-0 brand-image">
+        <img src="./assets/images/logo.svg" alt="logo">
+      </a>
+      <ul class="nav-options">
+        <li><a href="#">Preguntas frecuentes</a></li>
+        <li><a href="./product.html">Productos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Form -->
+  <div class="grid-container main-form">
+    <div class="row">
+      <div class="col-2 col-form">
+        <section class="pay">
+          <figure class="m-0 image-container">
+            <img src="./assets/images/product-item.png" alt="product item">
+          </figure>
+          <h3>Producto 1</h3>
+          <p>Miles de productos hay en el mercado, pero nada como nuestros productos hechos por el amor a los gatitos</p>
+        </section>
+      </div>
+      <div class="col-2">
+        <section class="pay">
+          <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WAQFEFBLBNKGN" method="POST">
+            <input type="hidden" name="first_name" value="Mauro">
+            <input type="hidden" name="city" value="Lima">
+            <input type="hidden" name="state" value="PE">
+            <input type="hidden" name="night_phone_a" value="978">
+            <input type="hidden" name="night_phone_b" value="154">
+            <input type="hidden" name="night_phone_c" value="504">
+            <input type="hidden" name="email" value="quinterosmauro9905@gmail.com">
+            <div class="input-content">
+              <label for="name">Nombre</label>
+              <input type="text" name="user-name" id="name" placeholder="Ingrese su nombre">
+            </div>
+            <div class="input-content">
+              <label for="email">Email</label>
+              <input type="email" name="user-email" id="email" placeholder="Ingrese su correo">
+            </div>
+            <div class="input-content">
+              <label for="phone">Teléfono</label>
+              <input type="text" name="user-phone" id="phone" placeholder="Ingrese su número de teléfono">
+            </div>
+            <input type="submit" value="Comprar" class="sale-button">
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#">Términos y Condiciones</a>
+    <a href="mailto:quinterosmauro@gmail.com">quinterosmauro@gmail.com</a>
+  </footer>
 </body>
 </html>
